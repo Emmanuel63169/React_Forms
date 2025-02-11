@@ -35,13 +35,13 @@ export default function SignUpForm({token, setToken}) {
 
     return (
     <>
-        <h2>Sign Up!</h2>
+        <h2 class="title1">Sign Up!</h2>
         {error && <p>{error}</p>}
     <form onSubmit={(e)=>handleSubmit(e,username,password)}>
-        <label>
+        <label class="username_box">
             Username: <input value={username} onChange={(e) => setUsername(e.target.value)}/>
         </label>
-        <label>
+        <label class="password_box">
             Password: <input value={password} onChange={(e) => setPassword(e.target.value)}/>
         </label>
         <button>Submit</button>

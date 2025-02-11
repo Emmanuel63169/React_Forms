@@ -27,6 +27,25 @@
   }
 }
 
+.username_box {
+ border: gray dashed 2px;
+}
+
+.password_box {
+  
+  border: gray dashed 2px;
+}
+
+.title1 {
+  font-size: 3rem;
+  border: solid white 2px;
+}
+
+.title2 {
+  font-size: 3rem;
+  border: solid white 2px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 0.2s linear;
